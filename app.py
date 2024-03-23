@@ -8,7 +8,6 @@ from psycopg2.errors import UniqueViolation
 from db import config_db, winner, losser, draw
 from sonyflake import SonyFlake
 
-st.secrets["SUPABASE_URI_DB"]
 
 sf = SonyFlake()
 
